@@ -8,6 +8,8 @@ import {
     faPlane,
     faTaxi,
   } from "@fortawesome/free-solid-svg-icons";
+
+  
   import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {DateRange} from 'react-date-range'
@@ -17,6 +19,22 @@ import 'react-date-range/dist/theme/default.css';
 
 import {format} from 'date-fns'
 const Header = () => {
+  
+  const handleOption = (name, operation) => {
+    setOptions((prev) => {
+      return {
+        ...prev,
+        [name]: operation === "i" ? options[name] + 1 : options[name] - 1,
+      };
+    });
+  };
+
+  const [openOptions, setOpenOptions] = useState(false);
+  const [options, setOptions] = useState({
+    adult: 1,
+    children: 0,
+    room: 1,
+  });
     const [openDate, setOpenDate] = useState(false);
     const [date, setDate] = useState([
         {
@@ -100,12 +118,84 @@ const Header = () => {
         
         
                 </div>
-             <div className="searchitem">
+                <div className="searchitem">
              <FontAwesomeIcon className="searchicon" icon={faPerson} style={{padding:'0 10px 0 10px'}}/>
-               <input style={{border:'none',height:'40px'}}  type="text" placeholder="Adults - Children" className="searchtext"/>
+  <input size="30" type="text" style={{border:'none',height:'40px'}} placeholder={`${options.adult} adults , ${options.children} children  ,${options.room} room  `}   onClick={() => setOpenOptions(!openOptions)}  />
+{openOptions && (
+  <div className="options">
+                    <div className="optionItem">
+                      <span className="optionText">Adult</span>
+                      <div className="optionCounter">
+                        <button
+                          disabled={options.adult <= 1}
+                          className="optionCounterButton"
+                          onClick={() => handleOption("adult", "d")}
+                        >
+                          -
+                        </button>
+                        <span className="optionCounterNumber">
+                          {options.adult}
+                        </span>
+                        <button
+                          className="optionCounterButton"
+                          onClick={() => handleOption("adult", "i")}
+                        >
+                          +
+                        </button>
+                      </div>
+                    </div>
+                    <div className="optionItem">
+                      <span className="optionText">Children</span>
+                      <div className="optionCounter">
+                        <button
+                          disabled={options.children <= 0}
+                          className="optionCounterButton"
+                          onClick={() => handleOption("children", "d")}
+                        >
+                          -
+                        </button>
+                        <span className="optionCounterNumber">
+                          {options.children}
+                        </span>
+                        <button
+                          className="optionCounterButton"
+                          onClick={() => handleOption("children", "i")}
+                        >
+                          +
+                        </button>
+                      </div>
+                    </div>
+                    <div className="optionItem">
+                      <span className="optionText">Room</span>
+                      <div className="optionCounter">
+                        <button
+                          disabled={options.room <= 1}
+                          className="optionCounterButton"
+                          onClick={() => handleOption("room", "d")}
+                        >
+                          -
+                        </button>
+                        <span className="optionCounterNumber">
+                          {options.room}
+                        </span>
+                        <button
+                          className="optionCounterButton"
+                          onClick={() => handleOption("room", "i")}
+                        >
+                          +
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                )}
+
+
+    
+ 
              </div>
+            
              <div className="searchitem">
-             <button type="button" class="btn btn-outline-success">Search</button>
+             <button type="button" className="btn btn-outline-success">Search</button>
              </div>
 
          </div>
