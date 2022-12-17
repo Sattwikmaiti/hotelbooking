@@ -46,8 +46,7 @@ transition: all 1s;
 }
 .col
 {
-    overflow-y: hidden;
-    overflow-x: hidden;
+   overflow: hidden;
     
     display: inline-block;
     margin:15px 10px
