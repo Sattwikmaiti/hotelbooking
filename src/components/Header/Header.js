@@ -14,7 +14,7 @@ import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {DateRange} from 'react-date-range'
 import { addDays } from 'date-fns';
-import 'react-date-range/dist/styles.css'; // main style file
+import 'react-date-range/dist/styles.css'; 
 import 'react-date-range/dist/theme/default.css';
 
 import {format} from 'date-fns'
