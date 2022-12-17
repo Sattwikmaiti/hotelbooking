@@ -78,6 +78,7 @@ width:400px;
   
   .text {
     background-color: lightblue;
+    opacity: 0.5;
     color: black;
     font-size: 16px;
     padding: 10px;
