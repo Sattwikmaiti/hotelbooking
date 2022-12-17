@@ -38,6 +38,7 @@
     padding:10px
 }
 .date{
+    z-index: 5;
   position:absolute;
   top:16px
     
