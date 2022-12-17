@@ -34,7 +34,16 @@ transition: all 1s;
 .img {
     background-image: url('./1.png');
 }
-
+.img2 {
+    background-image: url('./7.png');
+}
+.img6 {
+    background-image: url('./4.png');
+}
+.img1
+{
+    background-image: url('./3.png');
+}
 .col
 {
     overflow-y: hidden;
@@ -54,6 +63,7 @@ transition: all 1s;
 width:400px; 
     transition: .5s ease;
     backface-visibility: hidden;
+    
     
   }
   
@@ -77,11 +87,12 @@ width:400px;
   }
   
   .text {
-    background-color: lightblue;
-    opacity: 0.5;
-    color: black;
+    background-color: cadetblue;
+    opacity: 0.9;
+    color: wheat;
     font-size: 16px;
     padding: 10px;
+    font-size: larger;
   }  
   .containerr {
     position: relative;
