@@ -1,0 +1,23 @@
+.containern
+{
+    display:flex;
+    justify-content: center;
+    background-color:linen;
+    
+}
+.logo
+{display:flex; width: 100%;
+    max-width: 1025px;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.bbtn
+{  
+    border: none;
+    
+    cursor: pointer;
+    
+}

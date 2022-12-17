@@ -1,0 +1,45 @@
+.headeritems
+{
+   color:lightseagreen;
+   padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
+  
+}
+
+.headeritems:hover{
+    color:black
+}
+
+.btyn:hover{
+    background-color:black
+}
+.header{
+    display:flex;
+    
+    justify-content:center;
+    background-color: aliceblue;
+    
+}
+
+
+.search
+{
+    display:flex;
+    
+    justify-content:space-between;
+    background-color: aliceblue;
+    padding-left: 10px;
+    border :2px solid cadetblue
+
+}
+.searchitem{
+    padding:10px
+}
+.date{
+  position:absolute;
+  top:16px
+    
+
+}
