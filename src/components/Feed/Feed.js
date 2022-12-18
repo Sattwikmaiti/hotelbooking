@@ -7,7 +7,13 @@ import p3 from './8.png'
 import p4 from './5.png'
 import p5 from './1.png'
 import p6 from './1.png'
-import { faAlignCenter } from '@fortawesome/free-solid-svg-icons';
+import p11 from './11.png'
+import p12 from './12.png'
+import p13 from './13.png'
+
+import p14 from './14.png'
+import p15 from './15.png'
+
 
 
 const Feed = () => {
