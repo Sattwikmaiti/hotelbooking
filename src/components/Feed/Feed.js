@@ -21,10 +21,10 @@ const Feed = () => {
     { url: p11 },
     { url:p12 },
     { url: p13},
-    { url: p4 },
-    { url: p3},
-    { url: p2},
-    { url: p1 },
+    { url: p14 },
+    
+    { url: p15},
+   
   ];
   
   return (
