@@ -14,7 +14,17 @@
     background: #2E2E2E;
     border: 1px solid #2E2E2E;
   }
- 
+ .opl
+ {
+   margin:10px;
+   font-weight: bolder;
+ }
+ .opl:hover{
+
+    background-color:green;
+   
+    color:white !important
+ }
   .dk-footer-form input::-webkit-input-placeholder,
   .dk-footer-form input::-moz-placeholder,
   .dk-footer-form input:-ms-input-placeholder,
@@ -49,7 +59,15 @@
     cursor: pointer;
   }
   .foot {
-    background-color: gainsboro;
+    background-color: rgba(220, 220, 220, 0.543);
      display: flex;
      justify-content: center;
+  }
+  .top {
+    background-color:rgba(220, 220, 220, 0.543);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 35px;
+
   }
