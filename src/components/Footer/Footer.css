@@ -1,0 +1,55 @@
+.dk-footer {
+    padding: 75px 0 0;
+    background-color: #151414;
+    position: relative;
+    z-index: 2;
+  }
+  .dk-footer-form {
+    position: relative;
+  }
+ 
+  .dk-footer-form input[type=email] {
+    padding: 14px 28px;
+    border-radius: 50px;
+    background: #2E2E2E;
+    border: 1px solid #2E2E2E;
+  }
+ 
+  .dk-footer-form input::-webkit-input-placeholder,
+  .dk-footer-form input::-moz-placeholder,
+  .dk-footer-form input:-ms-input-placeholder,
+  .dk-footer-form input::-ms-input-placeholder,
+  .dk-footer-form input::-webkit-input-placeholder {
+    color: #878787;
+    font-size: 14px;
+  }
+ 
+  .dk-footer-form input::-webkit-input-placeholder,
+  .dk-footer-form input::-moz-placeholder,
+  .dk-footer-form input:-ms-input-placeholder,
+  .dk-footer-form input::-ms-input-placeholder,
+  .dk-footer-form input::placeholder {
+    color: #878787;
+    font-size: 14px;
+  }
+ 
+  .dk-footer-form button[type=submit] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 12px 24px 12px 17px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 1px solid #007bff;
+    background: #007bff;
+    color: #fff;
+  }
+ 
+  .dk-footer-form button:hover {
+    cursor: pointer;
+  }
+  .foot {
+    background-color: gainsboro;
+     display: flex;
+     justify-content: center;
+  }
