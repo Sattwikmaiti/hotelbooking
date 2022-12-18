@@ -116,7 +116,7 @@ const Feed = () => {
          <div className="row">
            <div className="col">
            <div class="card bg-dark" style={{width:'20rem',opacity:'0.8'}}>
-  <img class="card-img-top" src={p12} alt="Card image cap"/>
+  <img class="card-img-top" src={p20} style={{height:'200px'}}alt="Card image cap"/>
   <div class="card-body">
     <h5 class="card-title" style={{color:'white'}}>Thailand</h5>
     <p class="card-text" style={{color:'white'}}>A land of heavens , where you can take a break from daily hustle and enjoy the view.</p>
@@ -131,14 +131,14 @@ const Feed = () => {
            </div>
            <div className="col">
            <div class="card bg-dark" style={{width:'20rem',opacity:'0.8'}}>
-  <img class="card-img-top" src={p12} alt="Card image cap"/>
+  <img class="card-img-top" src={p21}style={{height:'200px'}} alt="Card image cap"/>
   <div class="card-body">
-    <h5 class="card-title" style={{color:'white'}}>Thailand</h5>
-    <p class="card-text" style={{color:'white'}}>A land of heavens , where you can take a break from daily hustle and enjoy the view.</p>
+    <h5 class="card-title" style={{color:'white'}}>Malaysia</h5>
+    <p class="card-text" style={{color:'white'}}>An ospicious place of free minds and complete meditaiton where you can enjoy .</p>
    
   </div>
   <ul class="list-group list-group-flush">
-    <li class="list-group-item" style={{backgroundColor:'black',color:'white'}}>Starting from &#x20B9;50,000 per person (4D,5N)</li>
+    <li class="list-group-item" style={{backgroundColor:'black',color:'white'}}>Starting from &#x20B9;55,000 per person (3D,4N)</li>
   </ul>
   <a href="#" class="btn btn-primary">View Details</a>
 </div>
