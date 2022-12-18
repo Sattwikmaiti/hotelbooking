@@ -11,6 +11,12 @@ transition: all 1s;
 -moz-transition:  all 1s;
 }
 
+.imageslider
+{
+  display: flex;
+  justify-content: center;
+ 
+}
 
 .feed{
     height:300px;

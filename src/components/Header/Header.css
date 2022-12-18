@@ -47,8 +47,8 @@
 .options {
     z-index: 5;
     position: absolute;
-    top: 200px;
-    left:800px;
+    top: 50px;
+    left:650px;
     background-color: white;
     color: gray;
     border-radius: 5px;
