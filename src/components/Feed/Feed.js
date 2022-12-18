@@ -109,74 +109,97 @@ const Feed = () => {
       <div className="trips">
          <div className="row">
            <div className="col">
-           <div class="card" style={{width:'18rem'}}>
+           <div class="card bg-dark" style={{width:'20rem',opacity:'0.8'}}>
   <img class="card-img-top" src={p12} alt="Card image cap"/>
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title" style={{color:'white'}}>Thailand</h5>
+    <p class="card-text" style={{color:'white'}}>A land of heavens , where you can take a break from daily hustle and enjoy the view.</p>
+   
   </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item" style={{backgroundColor:'black',color:'white'}}>Starting from &#x20B9;50,000 per person (4D,5N)</li>
+  </ul>
+  <a href="#" class="btn btn-primary">View Details</a>
 </div>
 
            </div>
            <div className="col">
-           <div class="card" style={{width:'18rem'}}>
+           <div class="card bg-dark" style={{width:'20rem',opacity:'0.8'}}>
   <img class="card-img-top" src={p12} alt="Card image cap"/>
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title" style={{color:'white'}}>Thailand</h5>
+    <p class="card-text" style={{color:'white'}}>A land of heavens , where you can take a break from daily hustle and enjoy the view.</p>
+   
   </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item" style={{backgroundColor:'black',color:'white'}}>Starting from &#x20B9;50,000 per person (4D,5N)</li>
+  </ul>
+  <a href="#" class="btn btn-primary">View Details</a>
 </div>
 
            </div>
            <div className="col">
-           <div class="card" style={{width:'18rem'}}>
+           <div class="card bg-dark" style={{width:'20rem',opacity:'0.8'}}>
   <img class="card-img-top" src={p12} alt="Card image cap"/>
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title" style={{color:'white'}}>Thailand</h5>
+    <p class="card-text" style={{color:'white'}}>A land of heavens , where you can take a break from daily hustle and enjoy the view.</p>
+   
   </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item" style={{backgroundColor:'black',color:'white'}}>Starting from &#x20B9;50,000 per person (4D,5N)</li>
+  </ul>
+  <a href="#" class="btn btn-primary">View Details</a>
 </div>
 
            </div>
          </div>
          <div className="row">
-           <div className="col">
-           <div class="card" style={{width:'18rem'}}>
+         <div className="col">
+           <div class="card bg-dark" style={{width:'20rem',opacity:'0.8'}}>
   <img class="card-img-top" src={p12} alt="Card image cap"/>
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title" style={{color:'white'}}>Thailand</h5>
+    <p class="card-text" style={{color:'white'}}>A land of heavens , where you can take a break from daily hustle and enjoy the view.</p>
+   
   </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item" style={{backgroundColor:'black',color:'white'}}>Starting from &#x20B9;50,000 per person (4D,5N)</li>
+  </ul>
+  <a href="#" class="btn btn-primary">View Details</a>
 </div>
 
            </div>
            <div className="col">
-           <div class="card" style={{width:'18rem'}}>
+           <div class="card bg-dark" style={{width:'20rem',opacity:'0.8'}}>
   <img class="card-img-top" src={p12} alt="Card image cap"/>
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title" style={{color:'white'}}>Thailand</h5>
+    <p class="card-text" style={{color:'white'}}>A land of heavens , where you can take a break from daily hustle and enjoy the view.</p>
+   
   </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item" style={{backgroundColor:'black',color:'white'}}>Starting from &#x20B9;50,000 per person (4D,5N)</li>
+  </ul>
+  <a href="#" class="btn btn-primary">View Details</a>
 </div>
 
            </div>
            <div className="col">
-           <div class="card" style={{width:'18rem'}}>
+           <div class="card bg-dark" style={{width:'20rem',opacity:'0.8'}}>
   <img class="card-img-top" src={p12} alt="Card image cap"/>
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title" style={{color:'white'}}>Thailand</h5>
+    <p class="card-text" style={{color:'white'}}>A land of heavens , where you can take a break from daily hustle and enjoy the view.</p>
+   
   </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item" style={{backgroundColor:'black',color:'white'}}>Starting from &#x20B9;50,000 per person (4D,5N)</li>
+  </ul>
+  <a href="#" class="btn btn-primary">View Details</a>
 </div>
 
            </div>
-
          
          </div>
       </div>
