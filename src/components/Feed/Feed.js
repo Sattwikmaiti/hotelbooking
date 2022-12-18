@@ -18,9 +18,9 @@ import p15 from './15.png'
 
 const Feed = () => {
   const images = [
-    { url: p1 },
-    { url:p2 },
-    { url: p3},
+    { url: p11 },
+    { url:p12 },
+    { url: p13},
     { url: p4 },
     { url: p3},
     { url: p2},
