@@ -34,21 +34,23 @@ const Footer = () => {
                                 
         </div>
         <a href="#"><div className="my-2" style={{display:'flex',justifyContent:'center'}}><NavigationIcon /></div> </a>            
-        <div className="connect" style={{backgroundColor:'grey',padding :'20px',display:'flex',justifyContent:'center'}}>
+        <div className="connect" style={{backgroundColor:'grey',padding :'5px',display:'flex',justifyContent:'center'}}>
             
               
-              <div className="ic" style={{padding:'10px'}}>
+              <div className="ic" >
              
               <GoogleIcon className="opl" />
               <TwitterIcon className="opl"/>
               <GitHubIcon className="opl"/>
               <LinkedInIcon className="opl"/>
               <FacebookIcon className="opl"/>
-              <h4 style={{display:'flex',justifyContent:'center'}}>  @Copyright 2022 Travelo.co.in </h4>
+             
                 </div>
+                
 
                 
         </div>
+        <h4 style={{display:'flex',justifyContent:'center',backgroundColor:'grey'}}>@Copyright 2022 Travelo.co.in </h4>
                   
 
 
