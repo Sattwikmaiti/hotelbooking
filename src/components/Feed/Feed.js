@@ -146,10 +146,10 @@ const Feed = () => {
            </div>
            <div className="col">
            <div class="card bg-dark" style={{width:'20rem',opacity:'0.8'}}>
-  <img class="card-img-top" src={p12} alt="Card image cap"/>
+  <img class="card-img-top" src={p22} style={{height:'200px'}}alt="Card image cap"/>
   <div class="card-body">
-    <h5 class="card-title" style={{color:'white'}}>Thailand</h5>
-    <p class="card-text" style={{color:'white'}}>A land of heavens , where you can take a break from daily hustle and enjoy the view.</p>
+    <h5 class="card-title" style={{color:'white'}}>Venice</h5>
+    <p class="card-text" style={{color:'white'}}>The place of gondola ,where you can feel the smell of streets and head start your life</p>
    
   </div>
   <ul class="list-group list-group-flush">
