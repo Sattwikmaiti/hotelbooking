@@ -14,7 +14,12 @@ import p13 from './13.png'
 import p14 from './14.png'
 import p15 from './15.png'
 
-
+import p20 from './20.png'
+import p21 from './21.png'
+import p22 from './22.png'
+import p23 from './23.png'
+import p24 from './24.png'
+import p25 from './25.png'
 
 const Feed = () => {
   const images = [
@@ -107,6 +112,7 @@ const Feed = () => {
 <br />
 <br />
       <div className="trips">
+      <h1 style={{color:'white',textAlign:'center'}}>Trips and Tours  </h1>
          <div className="row">
            <div className="col">
            <div class="card bg-dark" style={{width:'20rem',opacity:'0.8'}}>
